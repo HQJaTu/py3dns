@@ -42,6 +42,12 @@ MAILB = 253     # A request for mailbox-related records (MB, MG or MR)
 MAILA = 254     # A request for mail agent RRs (Obsolete - see MX)
 ANY = 255       # A request for all records
 
+# DNSSEC
+DS = 43
+DNSKEY = 48
+NSEC = 47
+NSEC3 = 50
+
 # Construct reverse mapping dictionary
 
 _names = dir()
